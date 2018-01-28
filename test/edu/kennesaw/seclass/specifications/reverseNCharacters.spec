@@ -19,12 +19,12 @@ String value:
   Yes.
 
 Length of string:
-  0.
+  0. [property zero]
   1.
   odd.
   even.
   int max. [single]
 
 Contains whitespace:
-  yes.
+  yes. [if !zero]
   no.

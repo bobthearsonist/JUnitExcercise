@@ -143,7 +143,7 @@ public class MyCustomStringTest {
     public void testReverseNCharacters11() {
         fail("Not yet implemented");
     }
-    
+
     @Test
     public void testConvertDigitsToNamesInSubstring1() {
         customStringObjectUnderTest.setString("H3y, l3t'5 put 50me d161ts in this 5tr1n6!11!!");
