@@ -27,4 +27,4 @@ Length of string:
 
 Contains whitespace:
   yes. [if !zero]
-  no.
+  no. [if !zero]
