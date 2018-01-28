@@ -13,9 +13,10 @@ Padded:
 
 Environments:
 #string
-String is valid:
+String value:
   Null. [error]
   Empty. [error]
+  Yes.
 
 Length of string:
   0.
