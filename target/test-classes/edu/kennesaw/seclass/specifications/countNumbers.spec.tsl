@@ -1,0 +1,61 @@
+
+Test Case 1  		<error>
+   String is valid :  Null
+
+
+Test Case 2  		<error>
+   String is valid :  Empty
+
+
+Test Case 3  		<single>
+   Number is located :  End of string
+
+
+Test Case 4  		<single>
+   Number is located :  Start of string
+
+
+Test Case 5  		<single>
+   Number is located :  Dispersed in string
+
+
+Test Case 6  		(Key = 0.1.0.1.)
+   String is valid            :  <n/a>
+   Numbers in the string      :  No numbers
+   Number is located          :  <n/a>
+   String contains whitespace :  Yes
+
+
+Test Case 7  		(Key = 0.1.0.2.)
+   String is valid            :  <n/a>
+   Numbers in the string      :  No numbers
+   Number is located          :  <n/a>
+   String contains whitespace :  No
+
+
+Test Case 8  		(Key = 0.2.0.1.)
+   String is valid            :  <n/a>
+   Numbers in the string      :  Single digit number
+   Number is located          :  <n/a>
+   String contains whitespace :  Yes
+
+
+Test Case 9  		(Key = 0.2.0.2.)
+   String is valid            :  <n/a>
+   Numbers in the string      :  Single digit number
+   Number is located          :  <n/a>
+   String contains whitespace :  No
+
+
+Test Case 10 		(Key = 0.3.0.1.)
+   String is valid            :  <n/a>
+   Numbers in the string      :  Multiple digit number
+   Number is located          :  <n/a>
+   String contains whitespace :  Yes
+
+
+Test Case 11 		(Key = 0.3.0.2.)
+   String is valid            :  <n/a>
+   Numbers in the string      :  Multiple digit number
+   Number is located          :  <n/a>
+   String contains whitespace :  No
