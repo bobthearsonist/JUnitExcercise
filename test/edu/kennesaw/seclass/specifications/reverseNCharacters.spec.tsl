@@ -1,0 +1,212 @@
+
+Test Case 1  		<single>
+   n value :  <0
+
+
+Test Case 2  		<single>
+   n value :  int max
+
+
+Test Case 3  		<error>
+   String is valid :  Null
+
+
+Test Case 4  		<error>
+   String is valid :  Empty
+
+
+Test Case 5  		<single>
+   Length of string :  int max
+
+
+Test Case 6  		(Key = 3.1.0.1.1.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  0
+   Contains whitespace :  yes
+
+
+Test Case 7  		(Key = 3.1.0.1.2.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  0
+   Contains whitespace :  no
+
+
+Test Case 8  		(Key = 3.1.0.2.1.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  1
+   Contains whitespace :  yes
+
+
+Test Case 9  		(Key = 3.1.0.2.2.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  1
+   Contains whitespace :  no
+
+
+Test Case 10 		(Key = 3.1.0.3.1.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  odd
+   Contains whitespace :  yes
+
+
+Test Case 11 		(Key = 3.1.0.3.2.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  odd
+   Contains whitespace :  no
+
+
+Test Case 12 		(Key = 3.1.0.4.1.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  even
+   Contains whitespace :  yes
+
+
+Test Case 13 		(Key = 3.1.0.4.2.)
+   n value             :  < string length
+   Padded              :  true
+   String is valid     :  <n/a>
+   Length of string    :  even
+   Contains whitespace :  no
+
+
+Test Case 14 		(Key = 3.2.0.1.1.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  0
+   Contains whitespace :  yes
+
+
+Test Case 15 		(Key = 3.2.0.1.2.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  0
+   Contains whitespace :  no
+
+
+Test Case 16 		(Key = 3.2.0.2.1.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  1
+   Contains whitespace :  yes
+
+
+Test Case 17 		(Key = 3.2.0.2.2.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  1
+   Contains whitespace :  no
+
+
+Test Case 18 		(Key = 3.2.0.3.1.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  odd
+   Contains whitespace :  yes
+
+
+Test Case 19 		(Key = 3.2.0.3.2.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  odd
+   Contains whitespace :  no
+
+
+Test Case 20 		(Key = 3.2.0.4.1.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  even
+   Contains whitespace :  yes
+
+
+Test Case 21 		(Key = 3.2.0.4.2.)
+   n value             :  < string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  even
+   Contains whitespace :  no
+
+
+Test Case 22 		(Key = 4.2.0.1.1.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  0
+   Contains whitespace :  yes
+
+
+Test Case 23 		(Key = 4.2.0.1.2.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  0
+   Contains whitespace :  no
+
+
+Test Case 24 		(Key = 4.2.0.2.1.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  1
+   Contains whitespace :  yes
+
+
+Test Case 25 		(Key = 4.2.0.2.2.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  1
+   Contains whitespace :  no
+
+
+Test Case 26 		(Key = 4.2.0.3.1.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  odd
+   Contains whitespace :  yes
+
+
+Test Case 27 		(Key = 4.2.0.3.2.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  odd
+   Contains whitespace :  no
+
+
+Test Case 28 		(Key = 4.2.0.4.1.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  even
+   Contains whitespace :  yes
+
+
+Test Case 29 		(Key = 4.2.0.4.2.)
+   n value             :  > string length
+   Padded              :  false
+   String is valid     :  <n/a>
+   Length of string    :  even
+   Contains whitespace :  no
+

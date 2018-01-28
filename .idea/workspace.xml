@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2939fd-6472-4a91-b478-1b7d62c7c29c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java" afterPath="$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/countNumbers.spec" afterPath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/countNumbers.spec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/countNumbers.spec.tsl" afterPath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/countNumbers.spec.tsl" />
     </list>
     <ignored path="JUnitExcercise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +27,8 @@
             <file leaf-file-name="MyCustomStringInterface.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/edu/kennesaw/seclass/MyCustomStringInterface.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-173">
-                    <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                  <state relative-caret-position="203">
+                    <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
                     <folding />
                   </state>
                 </provider>
@@ -47,9 +48,12 @@
       <file leaf-file-name="MyCustomStringTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="218">
+              <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+              <folding>
+                <element signature="e#3211#3212#0" expanded="true" />
+                <element signature="e#3254#3255#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -499,17 +503,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/kennesaw/seclass/MyCustomStringInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="203">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="218">
+          <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+          <folding>
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3254#3255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
