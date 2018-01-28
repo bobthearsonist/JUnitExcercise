@@ -1,188 +1,124 @@
 
-Test Case 1  		<single>
-   n value :  <0
-
-
-Test Case 2  		<single>
-   n value :  int max
-
-
-Test Case 3  		<error>
+Test Case 1  		<error>
    String value :  Null
 
 
-Test Case 4  		<error>
+Test Case 2  		<error>
    String value :  Empty
 
 
-Test Case 5  		<single>
+Test Case 3  		<single>
    Length of string :  int max
 
 
-Test Case 6  		(Key = 3.1.3.1.0.)
-   n value             :  < string length
-   Padded              :  true
+Test Case 4  		<single>
+   n value :  <0
+
+
+Test Case 5  		<single>
+   n value :  int max
+
+
+Test Case 6  		(Key = 3.1.0.4.2.)
    String value        :  Yes
    Length of string    :  0
    Contains whitespace :  <n/a>
+   n value             :  > string length
+   Padded              :  false
 
 
-Test Case 7  		(Key = 3.1.3.2.1.)
-   n value             :  < string length
-   Padded              :  true
+Test Case 7  		(Key = 3.2.1.3.2.)
    String value        :  Yes
    Length of string    :  1
    Contains whitespace :  yes
-
-
-Test Case 8  		(Key = 3.1.3.2.2.)
-   n value             :  < string length
-   Padded              :  true
-   String value        :  Yes
-   Length of string    :  1
-   Contains whitespace :  no
-
-
-Test Case 9  		(Key = 3.1.3.3.1.)
-   n value             :  < string length
-   Padded              :  true
-   String value        :  Yes
-   Length of string    :  odd
-   Contains whitespace :  yes
-
-
-Test Case 10 		(Key = 3.1.3.3.2.)
-   n value             :  < string length
-   Padded              :  true
-   String value        :  Yes
-   Length of string    :  odd
-   Contains whitespace :  no
-
-
-Test Case 11 		(Key = 3.1.3.4.1.)
-   n value             :  < string length
-   Padded              :  true
-   String value        :  Yes
-   Length of string    :  even
-   Contains whitespace :  yes
-
-
-Test Case 12 		(Key = 3.1.3.4.2.)
-   n value             :  < string length
-   Padded              :  true
-   String value        :  Yes
-   Length of string    :  even
-   Contains whitespace :  no
-
-
-Test Case 13 		(Key = 3.2.3.1.0.)
    n value             :  < string length
    Padded              :  false
-   String value        :  Yes
-   Length of string    :  0
-   Contains whitespace :  <n/a>
 
 
-Test Case 14 		(Key = 3.2.3.2.1.)
-   n value             :  < string length
-   Padded              :  false
+Test Case 8  		(Key = 3.2.1.4.2.)
    String value        :  Yes
    Length of string    :  1
    Contains whitespace :  yes
-
-
-Test Case 15 		(Key = 3.2.3.2.2.)
-   n value             :  < string length
+   n value             :  > string length
    Padded              :  false
+
+
+Test Case 9  		(Key = 3.2.2.3.2.)
    String value        :  Yes
    Length of string    :  1
    Contains whitespace :  no
-
-
-Test Case 16 		(Key = 3.2.3.3.1.)
    n value             :  < string length
    Padded              :  false
-   String value        :  Yes
-   Length of string    :  odd
-   Contains whitespace :  yes
 
 
-Test Case 17 		(Key = 3.2.3.3.2.)
-   n value             :  < string length
-   Padded              :  false
-   String value        :  Yes
-   Length of string    :  odd
-   Contains whitespace :  no
-
-
-Test Case 18 		(Key = 3.2.3.4.1.)
-   n value             :  < string length
-   Padded              :  false
-   String value        :  Yes
-   Length of string    :  even
-   Contains whitespace :  yes
-
-
-Test Case 19 		(Key = 3.2.3.4.2.)
-   n value             :  < string length
-   Padded              :  false
-   String value        :  Yes
-   Length of string    :  even
-   Contains whitespace :  no
-
-
-Test Case 20 		(Key = 4.2.3.1.0.)
-   n value             :  > string length
-   Padded              :  false
-   String value        :  Yes
-   Length of string    :  0
-   Contains whitespace :  <n/a>
-
-
-Test Case 21 		(Key = 4.2.3.2.1.)
-   n value             :  > string length
-   Padded              :  false
-   String value        :  Yes
-   Length of string    :  1
-   Contains whitespace :  yes
-
-
-Test Case 22 		(Key = 4.2.3.2.2.)
-   n value             :  > string length
-   Padded              :  false
+Test Case 10 		(Key = 3.2.2.4.2.)
    String value        :  Yes
    Length of string    :  1
    Contains whitespace :  no
-
-
-Test Case 23 		(Key = 4.2.3.3.1.)
    n value             :  > string length
    Padded              :  false
+
+
+Test Case 11 		(Key = 3.3.1.3.2.)
    String value        :  Yes
    Length of string    :  odd
    Contains whitespace :  yes
+   n value             :  < string length
+   Padded              :  false
 
 
-Test Case 24 		(Key = 4.2.3.3.2.)
+Test Case 12 		(Key = 3.3.1.4.2.)
+   String value        :  Yes
+   Length of string    :  odd
+   Contains whitespace :  yes
    n value             :  > string length
    Padded              :  false
+
+
+Test Case 13 		(Key = 3.3.2.3.2.)
    String value        :  Yes
    Length of string    :  odd
    Contains whitespace :  no
+   n value             :  < string length
+   Padded              :  false
 
 
-Test Case 25 		(Key = 4.2.3.4.1.)
+Test Case 14 		(Key = 3.3.2.4.2.)
+   String value        :  Yes
+   Length of string    :  odd
+   Contains whitespace :  no
    n value             :  > string length
    Padded              :  false
+
+
+Test Case 15 		(Key = 3.4.1.3.2.)
    String value        :  Yes
    Length of string    :  even
    Contains whitespace :  yes
+   n value             :  < string length
+   Padded              :  false
 
 
-Test Case 26 		(Key = 4.2.3.4.2.)
+Test Case 16 		(Key = 3.4.1.4.2.)
+   String value        :  Yes
+   Length of string    :  even
+   Contains whitespace :  yes
    n value             :  > string length
    Padded              :  false
+
+
+Test Case 17 		(Key = 3.4.2.3.2.)
    String value        :  Yes
    Length of string    :  even
    Contains whitespace :  no
+   n value             :  < string length
+   Padded              :  false
+
+
+Test Case 18 		(Key = 3.4.2.4.2.)
+   String value        :  Yes
+   Length of string    :  even
+   Contains whitespace :  no
+   n value             :  > string length
+   Padded              :  false
 
