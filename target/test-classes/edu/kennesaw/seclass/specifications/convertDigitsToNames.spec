@@ -6,7 +6,6 @@ String value:
   empty. [property empty]
   #I made the int max a single simply to constrain the domain. Technically for full coverage you would want to test it with others.
   int max. [single]
-  Some string content.
 
 Number of numbers in the string:
   None. [if !empty]

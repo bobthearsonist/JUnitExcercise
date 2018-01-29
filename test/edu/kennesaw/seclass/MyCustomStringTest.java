@@ -9,9 +9,11 @@ import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.fail;
 
 /*
-Clean Code methodology was used when creating this test file. As a reult you will find no comments, instead the functions have been named in such a manner that they are "self documenting".
+Clean Code methodology was used when creating this test file. As a result you will find no comments, instead the functions have been named in such a manner that they are "self documenting".
 
 I intentionally did not name the functions after the test case. This was to allow modification to the test plan without requeiring modification to compliled code whcih would be required fi a test case changed.
+
+Note that some of these tests fail. I left them failing intentionally in order to indicate those cases where the code is notmathcing my interpretation of the sopfteware specification form the interface definitions.
  */
 
 public class MyCustomStringTest {
@@ -150,60 +152,71 @@ public class MyCustomStringTest {
     }
 
     @Test
-    public void testConvertDigitsToNamesInSubstring1() {
+    public void convertDigitsToNamesInSubstringBigBang1() {
         customStringObjectUnderTest.setString("H3y, l3t'5 put 50me d161ts in this 5tr1n6!11!!");
         customStringObjectUnderTest.convertDigitsToNamesInSubstring(17, 24);
         assertEquals("H3y, l3t'5 put 5Zerome dOnesixonets in this 5tr1n6!11!!", customStringObjectUnderTest.getString());
     }
 
+    @Test (expected = NullPointerException.class)
+    public void convertDigitsToNamesInSubstringNullString() {
+        customStringObjectUnderTest.setString(null);
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(0, 0);
+    }
 
-    @Test
-    public void testConvertDigitsToNamesInSubstring2() {
-        fail("Not yet implemented");
+    @Test (expected = MyIndexOutOfBoundsException.class)
+    public void convertDigitsToNamesInSubstringStartPositionLessThan1() {
+        customStringObjectUnderTest.setString("");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(0, 1);
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void convertDigitsToNamesInSubstringEndPositionLessThanStartPosition() {
+        customStringObjectUnderTest.setString("  ");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(2, 1);
+    }
+
+    @Test (expected = MyIndexOutOfBoundsException.class)
+    public void convertDigitsToNamesInSubstringEndPositionEqualToStartPosition() {
+        customStringObjectUnderTest.setString("  ");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(2, 2);
+    }
+
+    @Test (expected = MyIndexOutOfBoundsException.class)
+    public void convertDigitsToNamesInSubstringEndPositionGreaterThanString() {
+        customStringObjectUnderTest.setString(" ");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(1, 2);
     }
 
     @Test
-    public void testConvertDigitsToNamesInSubstring3() {
-        fail("Not yet implemented");
+    public void convertDigitsToNamesInSubstringNoNumbersInTheStringStartAt1() {
+        customStringObjectUnderTest.setString("This is a string with no numbers.");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(1, 6);
+    }
+
+    @Test(expected = MyIndexOutOfBoundsException.class)
+    public void convertDigitsToNamesInSubstringEmptyStringStartAndStop1()  {
+        customStringObjectUnderTest.setString("");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(1, 1);
+    }
+
+    @Test(expected = MyIndexOutOfBoundsException.class)
+    public void convertDigitsToNamesInSubstringEmptyString()  {
+        customStringObjectUnderTest.setString("");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(1, 2);
     }
 
     @Test
-    public void testConvertDigitsToNamesInSubstring4() {
-        fail("Not yet implemented");
+    public void convertDigitsToNamesInSubstringOneNumber() {
+        customStringObjectUnderTest.setString("10");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(1, 2);
+        assertEquals("Onezero",customStringObjectUnderTest.getString());
     }
 
     @Test
-    public void testConvertDigitsToNamesInSubstring5() {
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void testConvertDigitsToNamesInSubstring6() {
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void testConvertDigitsToNamesInSubstring7() {
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void testConvertDigitsToNamesInSubstring8() {
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void testConvertDigitsToNamesInSubstring9() {
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void testConvertDigitsToNamesInSubstring10() {
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void testConvertDigitsToNamesInSubstring11() {
-        fail("Not yet implemented");
+    public void convertDigitsToNamesInSubstringTwoNumbers() {
+        customStringObjectUnderTest.setString("10 10");
+        customStringObjectUnderTest.convertDigitsToNamesInSubstring(1, customStringObjectUnderTest.getString().length());
+        assertEquals("Onezero Onezero",customStringObjectUnderTest.getString());
     }
 }
