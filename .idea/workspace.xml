@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2939fd-6472-4a91-b478-1b7d62c7c29c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/kennesaw/seclass/MyCustomStringTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/kennesaw/seclass/MyCustomStringTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java" afterPath="$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/convertDigitsToNames.spec" afterPath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/convertDigitsToNames.spec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/convertDigitsToNames.spec.tsl" afterPath="$PROJECT_DIR$/test/edu/kennesaw/seclass/specifications/convertDigitsToNames.spec.tsl" />
     </list>
     <ignored path="JUnitExcercise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +30,8 @@
             <file leaf-file-name="MyCustomStringInterface.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/edu/kennesaw/seclass/MyCustomStringInterface.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="218">
-                    <caret line="46" column="93" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <state relative-caret-position="340">
+                    <caret line="74" column="42" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="42" />
                     <folding />
                   </state>
                 </provider>
@@ -47,30 +51,9 @@
       <file leaf-file-name="MyCustomStringTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-              <folding>
-                <marker date="1517184096000" expanded="false" signature="6213:6224" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6252:6258" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6324:6335" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6363:6369" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6435:6446" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6474:6480" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6546:6557" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6585:6591" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6657:6668" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6696:6702" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6768:6779" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6807:6813" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6879:6890" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6918:6924" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6990:7001" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="7029:7035" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="7102:7113" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="7141:7147" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="7214:7225" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="7253:7259" ph=" }" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="216" column="47" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,9 +92,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="628" />
+    <option name="x" value="1230" />
     <option name="y" value="128" />
-    <option name="width" value="1280" />
+    <option name="width" value="678" />
     <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -160,8 +143,8 @@
       <recent name="edu.kennesaw.seclass" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyCustomStringTest.reverseNCharactersNLessThanStringPadded">
-    <configuration default="false" name="MyCustomStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringBigBang1">
+    <configuration default="false" name="MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionEqualToStartPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.kennesaw.seclass.*" />
@@ -173,33 +156,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.kennesaw.seclass" />
       <option name="MAIN_CLASS_NAME" value="edu.kennesaw.seclass.MyCustomStringTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MyCustomStringTest.reverseNCharactersNegativeNStringNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.kennesaw.seclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JUnitExcercise" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.kennesaw.seclass" />
-      <option name="MAIN_CLASS_NAME" value="edu.kennesaw.seclass.MyCustomStringTest" />
-      <option name="METHOD_NAME" value="reverseNCharactersNegativeNStringNull" />
+      <option name="METHOD_NAME" value="convertDigitsToNamesInSubstringEndPositionEqualToStartPosition" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -213,7 +170,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MyCustomStringTest.reverseNCharactersIntMaxN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionLessThanStartPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.kennesaw.seclass.*" />
@@ -225,7 +182,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.kennesaw.seclass" />
       <option name="MAIN_CLASS_NAME" value="edu.kennesaw.seclass.MyCustomStringTest" />
-      <option name="METHOD_NAME" value="reverseNCharactersIntMaxN" />
+      <option name="METHOD_NAME" value="convertDigitsToNamesInSubstringEndPositionLessThanStartPosition" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -239,7 +196,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MyCustomStringTest.reverseNCharactersNegativeNStringNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyCustomStringTest.convertDigitsToNamesInSubstringStartPositionLessThan1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.kennesaw.seclass.*" />
@@ -251,7 +208,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.kennesaw.seclass" />
       <option name="MAIN_CLASS_NAME" value="edu.kennesaw.seclass.MyCustomStringTest" />
-      <option name="METHOD_NAME" value="reverseNCharactersNegativeNStringNotNull" />
+      <option name="METHOD_NAME" value="convertDigitsToNamesInSubstringStartPositionLessThan1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -265,7 +222,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MyCustomStringTest.reverseNCharactersNLessThanStringPadded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyCustomStringTest.convertDigitsToNamesInSubstringNullString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.kennesaw.seclass.*" />
@@ -277,7 +234,33 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.kennesaw.seclass" />
       <option name="MAIN_CLASS_NAME" value="edu.kennesaw.seclass.MyCustomStringTest" />
-      <option name="METHOD_NAME" value="reverseNCharactersNLessThanStringPadded" />
+      <option name="METHOD_NAME" value="convertDigitsToNamesInSubstringNullString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyCustomStringTest.convertDigitsToNamesInSubstringBigBang1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.kennesaw.seclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnitExcercise" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.kennesaw.seclass" />
+      <option name="MAIN_CLASS_NAME" value="edu.kennesaw.seclass.MyCustomStringTest" />
+      <option name="METHOD_NAME" value="convertDigitsToNamesInSubstringBigBang1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -558,19 +541,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersNegativeNStringNull" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersIntMaxN" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersNegativeNStringNotNull" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersNLessThanStringPadded" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionEqualToStartPosition" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionLessThanStartPosition" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringStartPositionLessThan1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringNullString" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringBigBang1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersNLessThanStringPadded" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersNegativeNStringNotNull" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersIntMaxN" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.reverseNCharactersNegativeNStringNull" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringBigBang1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringNullString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringStartPositionLessThan1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionLessThanStartPosition" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionEqualToStartPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -591,39 +574,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyCustomStringTest - 2018.01.28 at 14h 31m 38s.xml">
-      <configuration name="MyCustomStringTest" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringBigBang1 - 2018.01.28 at 22h 56m 08s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringBigBang1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest - 2018.01.28 at 18h 50m 15s.xml">
-      <configuration name="MyCustomStringTest" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringEmptyString - 2018.01.28 at 22h 55m 05s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringEmptyString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest - 2018.01.28 at 18h 54m 35s.xml">
-      <configuration name="MyCustomStringTest" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringEmptyStringStartAndStop1 - 2018.01.28 at 22h 55m 09s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringEmptyStringStartAndStop1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest - 2018.01.28 at 18h 58m 11s.xml">
-      <configuration name="MyCustomStringTest" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringEndPositionEqualToStartPosition - 2018.01.28 at 22h 55m 25s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionEqualToStartPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest_reverseNCharactersIntMaxN - 2018.01.28 at 18h 55m 51s.xml">
-      <configuration name="MyCustomStringTest.reverseNCharactersIntMaxN" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringEndPositionGreaterThanString - 2018.01.28 at 22h 55m 20s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionGreaterThanString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest_reverseNCharactersNGreaterThanString - 2018.01.28 at 18h 53m 10s.xml">
-      <configuration name="MyCustomStringTest.reverseNCharactersNGreaterThanString" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringEndPositionLessThanStartPosition - 2018.01.28 at 22h 55m 54s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringEndPositionLessThanStartPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest_reverseNCharactersNGreaterThanString - 2018.01.28 at 18h 53m 48s.xml">
-      <configuration name="MyCustomStringTest.reverseNCharactersNGreaterThanString" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringNoNumbersInTheStringStartAt1 - 2018.01.28 at 22h 55m 14s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringNoNumbersInTheStringStartAt1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest_reverseNCharactersNLessThanStringPadded - 2018.01.28 at 19h 01m 40s.xml">
-      <configuration name="MyCustomStringTest.reverseNCharactersNLessThanStringPadded" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringNullString - 2018.01.28 at 22h 56m 03s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringNullString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest_reverseNCharactersNegativeNStringNotNull - 2018.01.28 at 18h 56m 13s.xml">
-      <configuration name="MyCustomStringTest.reverseNCharactersNegativeNStringNotNull" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringOneNumber - 2018.01.28 at 22h 55m 01s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringOneNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyCustomStringTest_reverseNCharactersNegativeNStringNull - 2018.01.28 at 18h 55m 32s.xml">
-      <configuration name="MyCustomStringTest.reverseNCharactersNegativeNStringNull" configurationId="JUnit" />
+    <history-entry file="MyCustomStringTest_convertDigitsToNamesInSubstringStartPositionLessThan1 - 2018.01.28 at 22h 55m 59s.xml">
+      <configuration name="MyCustomStringTest.convertDigitsToNamesInSubstringStartPositionLessThan1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="628" y="128" width="1280" height="773" extended-state="0" />
+    <frame x="1230" y="128" width="678" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -633,7 +616,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -698,38 +681,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/kennesaw/seclass/MyCustomStringInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="46" column="93" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-          <folding>
-            <marker date="1517184096000" expanded="false" signature="6213:6224" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6252:6258" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6324:6335" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6363:6369" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6435:6446" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6474:6480" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6546:6557" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6585:6591" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6657:6668" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6696:6702" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6768:6779" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6807:6813" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6879:6890" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6918:6924" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6990:7001" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="7029:7035" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="7102:7113" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="7141:7147" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="7214:7225" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="7253:7259" ph=" }" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="216" column="47" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
