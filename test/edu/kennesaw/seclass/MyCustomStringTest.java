@@ -3,12 +3,15 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.fail;
 
 /*
 Clean Code methodology was used when creating this test file. As a reult you will find no comments, instead the functions have been named in such a manner that they are "self documenting".
+
+I intentionally did not name the functions after the test case. This was to allow modification to the test plan without requeiring modification to compliled code whcih would be required fi a test case changed.
  */
 
 public class MyCustomStringTest {
@@ -73,63 +76,78 @@ public class MyCustomStringTest {
         Assert.assertEquals(1, customStringObjectUnderTest.countNumbers());
     }
 
+    private final String PeterPiper = "Peter Piper picked a peck of pickled peppers.";
     @Test
-    public void testReverseNCharacters1() {
-        customStringObjectUnderTest.setString("Peter Piper picked a peck of pickled peppers.");
+    public void testReverseNCharactersBigBang1() {
+        customStringObjectUnderTest.setString(PeterPiper);
         assertEquals("etePiP r repkcipa decep fo kcip delkpep srep.", customStringObjectUnderTest.reverseNCharacters(4, false));
     }
 
     @Test
-    public void testReverseNCharacters2() {
-        customStringObjectUnderTest.setString("Peter Piper picked a peck of pickled peppers.");
+    public void testReverseNCharactersBigBang2() {
+        customStringObjectUnderTest.setString(PeterPiper);
         assertEquals("etePiP r repkcipa decep fo kcip delkpep srepXXX.", customStringObjectUnderTest.reverseNCharacters(4, true));
     }
 
-    @Test
-    public void testReverseNCharacters3() {
-        fail("Not yet implemented");
+    @Test(expected = IllegalArgumentException.class)
+    public void reverseNCharactersNegativeNStringNotNull() {
+        customStringObjectUnderTest.setString(PeterPiper);
+        customStringObjectUnderTest.reverseNCharacters(-1,true);
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void reverseNCharactersNegativeNStringNull() {
+        customStringObjectUnderTest.setString(null);
+        customStringObjectUnderTest.reverseNCharacters(-1,true);
     }
 
     @Test
-    public void testReverseNCharacters4() {
-        fail("Not yet implemented");
+    public void reverseNCharactersIntMaxN() {
+        customStringObjectUnderTest.setString(PeterPiper);
+        customStringObjectUnderTest.reverseNCharacters(Integer.MAX_VALUE,true);
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void reverseNCharactersNullStringNValid() {
+        customStringObjectUnderTest.setString(null);
+        customStringObjectUnderTest.reverseNCharacters(Integer.MAX_VALUE,true);
     }
 
     @Test
-    public void testReverseNCharacters5() {
-        fail("Not yet implemented");
+    public void reverseNCharactersEmptyString() {
+        customStringObjectUnderTest.setString(PeterPiper);
+        assertEquals("", customStringObjectUnderTest.reverseNCharacters(Integer.MAX_VALUE, true));
     }
 
     @Test
-    public void testReverseNCharacters6() {
-        fail("Not yet implemented");
+    public void reverseNCharactersNGreaterThan0() {
+        customStringObjectUnderTest.setString("");
+        assertEquals("", customStringObjectUnderTest.reverseNCharacters(4, false));
     }
 
     @Test
-    public void testReverseNCharacters7() {
-        fail("Not yet implemented");
+    public void reverseNCharactersNZeroString1() {
+        customStringObjectUnderTest.setString("1");
+        assertEquals("1", customStringObjectUnderTest.reverseNCharacters(0, false));
     }
 
     @Test
-    public void testReverseNCharacters8() {
-        fail("Not yet implemented");
+    public void reverseNCharactersNGreaterThanString() {
+        customStringObjectUnderTest.setString(PeterPiper);
+        assertEquals(new StringBuilder(PeterPiper).reverse().toString(), customStringObjectUnderTest.reverseNCharacters(PeterPiper.length()+1, false));
     }
 
     @Test
-    public void testReverseNCharacters9() {
-        fail("Not yet implemented");
+    public void reverseNCharactersNLessThanStringPadded() {
+        customStringObjectUnderTest.setString("test");
+        assertEquals("setXXt", customStringObjectUnderTest.reverseNCharacters(new String("test").length()-1, true));
     }
 
     @Test
-    public void testReverseNCharacters10() {
-        fail("Not yet implemented");
+    public void reverseNCharactersNLessThanString() {
+        customStringObjectUnderTest.setString("test");
+        assertEquals("sett", customStringObjectUnderTest.reverseNCharacters(new String("test").length()-1, false));
     }
-
-    @Test
-    public void testReverseNCharacters11() {
-        fail("Not yet implemented");
-    }
-
 
     @Test
     public void testConvertDigitsToNamesInSubstring1() {
@@ -138,6 +156,7 @@ public class MyCustomStringTest {
         assertEquals("H3y, l3t'5 put 5Zerome dOnesixonets in this 5tr1n6!11!!", customStringObjectUnderTest.getString());
     }
 
+    /*
     @Test
     public void testConvertDigitsToNamesInSubstring2() {
         fail("Not yet implemented");
@@ -187,5 +206,5 @@ public class MyCustomStringTest {
     public void testConvertDigitsToNamesInSubstring11() {
         fail("Not yet implemented");
     }
-
+    */
 }
