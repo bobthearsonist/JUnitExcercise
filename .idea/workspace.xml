@@ -26,8 +26,8 @@
             <file leaf-file-name="MyCustomStringInterface.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/edu/kennesaw/seclass/MyCustomStringInterface.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="218">
-                    <caret line="46" column="93" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <state relative-caret-position="532">
+                    <caret line="77" column="40" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="40" />
                     <folding />
                   </state>
                 </provider>
@@ -47,30 +47,9 @@
       <file leaf-file-name="MyCustomStringTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-              <folding>
-                <marker date="1517184096000" expanded="false" signature="6213:6224" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6252:6258" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6324:6335" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6363:6369" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6435:6446" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6474:6480" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6546:6557" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6585:6591" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6657:6668" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6696:6702" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6768:6779" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6807:6813" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6879:6890" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="6918:6924" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="6990:7001" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="7029:7035" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="7102:7113" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="7141:7147" ph=" }" />
-                <marker date="1517184096000" expanded="false" signature="7214:7225" ph=" { " />
-                <marker date="1517184096000" expanded="false" signature="7253:7259" ph=" }" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="207" column="5" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -633,7 +612,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -696,40 +675,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/kennesaw/seclass/MyCustomStringInterface.java">
+    <entry file="file://$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="46" column="93" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="207" column="5" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/kennesaw/seclass/MyCustomStringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/kennesaw/seclass/MyCustomStringInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-          <folding>
-            <marker date="1517184096000" expanded="false" signature="6213:6224" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6252:6258" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6324:6335" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6363:6369" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6435:6446" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6474:6480" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6546:6557" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6585:6591" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6657:6668" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6696:6702" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6768:6779" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6807:6813" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6879:6890" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="6918:6924" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="6990:7001" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="7029:7035" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="7102:7113" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="7141:7147" ph=" }" />
-            <marker date="1517184096000" expanded="false" signature="7214:7225" ph=" { " />
-            <marker date="1517184096000" expanded="false" signature="7253:7259" ph=" }" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

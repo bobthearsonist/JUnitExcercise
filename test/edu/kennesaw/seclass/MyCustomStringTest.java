@@ -156,7 +156,7 @@ public class MyCustomStringTest {
         assertEquals("H3y, l3t'5 put 5Zerome dOnesixonets in this 5tr1n6!11!!", customStringObjectUnderTest.getString());
     }
 
-    /*
+
     @Test
     public void testConvertDigitsToNamesInSubstring2() {
         fail("Not yet implemented");
@@ -206,5 +206,4 @@ public class MyCustomStringTest {
     public void testConvertDigitsToNamesInSubstring11() {
         fail("Not yet implemented");
     }
-    */
 }
